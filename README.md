@@ -10,4 +10,4 @@ A Better Representation os Chat app using a MS SQL Server ,Made within ASP.NET C
 **``Make Changes to the web.config file, add connection string``**
 **``Check if the database.mdf file is in the AppData Folder``**
 
-*Then You Are Good To GO*
+*Then You Are Good To Go*
