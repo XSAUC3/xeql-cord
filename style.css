@@ -1,0 +1,352 @@
+.message {
+    background:none;
+    border:none;
+    border-bottom: 1px solid #4C4C4C;
+    outline:none;
+    box-shadow:none;
+    color: white;
+    font-size:1.6em;
+    font-weight:300;
+    padding:9px;
+}
+
+@media screen and (max-width: 600px) {
+  .tit{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+.bar
+{
+color: white;font-family: arty; font-size: 200%;display:inline;
+}
+
+i
+{
+    color:hotpink;
+    font-size:70%;
+}
+
+.view
+{
+    position: fixed;
+    bottom: 55px;
+    width: 95%;
+    top: 95px;
+    overflow: scroll;
+}
+
+.logout{
+    background-color: transparent;
+    position: absolute;
+    top: 90%;
+    right: 75px;
+    padding: 15px;
+    font-family: nexab;
+    border: 1px solid white;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+li
+{
+    color:white;
+}
+
+.sidenav a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    align-items: center;
+    display: block;
+    transition: 0.5s
+}
+
+.sidenav button
+{
+    background-color:transparent;
+    padding: 15px;
+    font-family: nexab;
+    border: 1px solid white;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.5s
+}
+
+.smpbtn{
+    background-color:transparent;
+    padding: 15px;
+    font-family: nexab;
+    border: 1px solid white;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.5s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;   
+    top: 0;
+    right: -45px;
+    font-size: 50px;
+    margin-right: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.chatlable
+{
+    padding: 3px;
+    margin: 5px;
+    position: absolute;
+    top: 20px;
+    right: 55px;
+    color: #816A98;
+    font-family: nexab;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid;
+
+}
+
+.chatform
+{
+    position: fixed;
+    right: 0;
+    padding: 7px;
+    display: inline-flex;
+    border: 2px solid white;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    background-color: #242226;
+}
+
+.btn {
+    margin: 10px;
+    width: var(--btn-w);
+    color: var(--primary);
+    border: .15em solid var(--primary);
+    border-radius: 5em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2em;
+    cursor: pointer;    
+}
+
+
+a
+taiontpx;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+.chat-container {
+   position: absolute;
+    width: 98%;
+    padding: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 80%;
+
+}
+.chat-container:nth-child(4) {
+    opacity: .8;
+}
+.chat-container:nth-child(3) {
+    opacity: .6;
+}
+.chat-container:nth-child(2) {
+    opacity: .4;
+}
+
+.chat-container a {
+    text-transform: uppercase;
+    font-weight:bold;
+    color:#816A98;
+    font-size:.8em;
+    letter-spacing:2px;
+}
+
+.chat-container p {
+    background:#323035;
+    padding:1.1em;
+    color:white;
+    margin: 5px 0 10px 0;
+}
+
+.ao {
+    text-transform: uppercase;
+    font-weight:bold;
+    color:#816A98;
+    font-size:.8em;
+    letter-spacing:2px;
+}
+
+.po {
+    background:#323035;
+    padding:1.1em;
+    color:white;
+    margin: 5px 0 10px 0;
+}
+
+
+body {
+     -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+    background-color:#242226;
+    overflow:hidden;
+    
+}
+* {
+    font-family: nexa;
+}
+
+
+a{
+    text-decoration:none;
+    font-family: nexab
+}
+.upl
+{
+    background-image:url('img/upl.png');
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    filter: invert(1);
+    margin-top: 5px;
+}
+.display{
+    opacity:0;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+.snd {
+    background-image: url('img/send.png');
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    filter: invert(1);
+    margin-top: 5px;;
+}
+
+
+@font-face {
+    font-family: nexab;
+    src: url(fonts/NexaBold.otf);
+}
+
+@font-face {
+    font-family: nexa;
+    src: url(fonts/NexaLight.otf);
+}
+
+@font-face {
+    font-family: arty;
+    src: url(fonts/arty.otf);
+}
+
+
+
+:root {
+    --bg: #3C465C;
+    --primary: #816A98;
+    --solid: #fff;
+    --btn-w: 120px;
+    --dot-w: calc(var(--btn-w)*.2);
+    --tr-X: calc(var(--btn-w) - var(--btn-w)*.2);
+}
+* {box-sizing: border-box;}
+*:before, *:after {box-sizing: border-box;}
+
+.btn {
+    position: relative;
+    margin: 0 auto;
+    width: var(--btn-w);
+    color: var(--primary);
+    border: .15em solid var(--primary);
+    border-radius: 5em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2em;
+    cursor: pointer;    
+}
+.dot {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: var(--dot-w);
+    height: 100%;
+    border-radius: 90%;
+    transition: all 300ms ease;
+    display: none;
+}
+.dot:after {
+    content: '';
+    position: absolute;
+    left: calc(50% - .4em);
+    top: -.4em;
+    height: .8em;
+    width: .8em;
+    background: var(--primary);
+    border-radius: 1em;
+    border: .25em solid var(--solid);
+    box-shadow: 0 0 .7em var(--solid),
+                0 0 2em var(--primary);
+}
+.btn:hover .dot,
+.btn:focus .dot {
+    animation: atom 2s infinite linear;
+    display: block;
+}
+@keyframes atom {
+    0% {transform: translateX(0) rotate(0);}
+    30%{transform: translateX(var(--tr-X)) rotate(0);}
+    50% {transform: translateX(var(--tr-X)) rotate(180deg);}
+    80% {transform: translateX(0) rotate(180deg);}
+    100% {transform: translateX(0) rotate(360deg);}
+}
+
+
+
